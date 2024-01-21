@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingLeft="16dp"
+    android:paddingTop="16dp"
+    android:paddingRight="16dp"
+    android:paddingBottom="16dp"
+    android:background="#E46145"
+    tools:context=".Activities.ManagementResdentActivity">
+
+    <!-- UI Elements for Managing Residents -->
+    <EditText
+        android:id="@+id/editTextResidentName"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="16dp"
+        android:hint="Tên cư dân"/>
+
+    <Button
+        android:id="@+id/btnAddResident"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/editTextResidentName"
+        android:layout_marginTop="16dp"
+        android:text="Thêm cư dân"/>
+
+    <Button
+        android:id="@+id/btnDeleteResident"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/btnAddResident"
+        android:layout_marginTop="16dp"
+        android:text="Xóa cư dân"/>
+
+    <Button
+        android:id="@+id/btnUpdateResident"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/btnDeleteResident"
+        android:layout_marginTop="16dp"
+        android:text="Sửa cư dân"/>
+</RelativeLayout>
