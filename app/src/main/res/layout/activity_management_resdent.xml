@@ -7,7 +7,7 @@
     android:paddingTop="16dp"
     android:paddingRight="16dp"
     android:paddingBottom="16dp"
-    android:background="#E46145"
+    android:background="#E1816D"
     tools:context=".Activities.ManagementResdentActivity">
 
     <!-- UI Elements for Managing Residents -->

@@ -7,7 +7,7 @@
     android:paddingTop="16dp"
     android:paddingRight="16dp"
     android:paddingBottom="16dp"
-    android:background="#7BE2EF"
+    android:background="#40D8EC"
     tools:context=".Activities.BillView">
 
     <EditText
