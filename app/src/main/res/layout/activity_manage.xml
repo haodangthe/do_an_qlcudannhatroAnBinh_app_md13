@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="16dp">
+
+    <TextView
+        android:id="@+id/tvApartmentInfo"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Thông tin căn hộ" />
+
+    <EditText
+        android:id="@+id/etApartmentId"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Nhập ID căn hộ" />
+
+    <Button
+        android:id="@+id/btnGetApartmentInfo"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Lấy thông tin căn hộ" />
+
+    <TextView
+        android:id="@+id/tvResult"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="16dp"
+        android:text="Kết quả sẽ được hiển thị ở đây" />
+</LinearLayout>
